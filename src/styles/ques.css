@@ -1,0 +1,27 @@
+.queue {
+    display: none;
+    position: absolute;
+    z-index: 10;
+}
+#big_queue {
+    top: 110%;
+    right: 10%;
+}
+
+#queue1 {
+
+    top: 130%;
+    left: 10%;
+}
+
+#queue2 {
+    top: 120%;
+    left: 35%;
+    
+}
+
+#queue3 {
+    top: 135%;
+    right: 25%;
+    
+}

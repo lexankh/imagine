@@ -1,0 +1,63 @@
+.city {
+    display: flex;
+    position: relative;
+    margin-top: -185px;
+    background-image: url(../images/background.png);
+    min-height: 100vh;
+    background-size: cover;
+    width: 100%;
+  }
+  
+  .person {
+    width: 30%;
+    position: absolute;
+    top: 45%;
+    left: 10%;
+  
+    z-index: 100;
+  }
+  
+  .moscow-city {
+    position: absolute;
+    top: 55%;
+    left: 0;
+    z-index: 1;
+    max-width: 600px;
+  }
+  
+  .house-2 {
+    position: absolute;
+    top: 35%;
+    right: 10%;
+    z-index: 1;
+  }
+  
+  .house-1 {
+    position: absolute;
+    top: 90%;
+    right: 5%;
+    z-index: 2;
+    max-height: 480px;
+  }
+
+.bridge {
+    position: absolute;
+    top: 110%;
+    right: 0;
+    z-index: 3;
+    max-height: 500px;
+  }
+  
+  .lighters {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    z-index: 4;
+    max-height: 700px;
+  }
+  
+  @media screen and (min-width: 1600px) {
+    .bridge {
+      min-width: 1600px;
+    }
+  }

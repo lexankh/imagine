@@ -1,0 +1,88 @@
+@import url(./styles/preloader.css);
+@import url(./styles/city.css);
+@import url(./styles/ques.css);
+@import url(./styles/fonts.css);
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  font-family: Garamond, sans-serif;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background-color: #eaeaea;
+}
+
+.page {
+  position: relative;
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+  max-height: 1065px;
+}
+
+.hero__link {
+  position: absolute;
+  top: 30px;
+  right: 70px;
+  text-decoration: underline;
+  opacity: 0.5;
+  color: black;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+
+.cloud {
+  width: 655px;
+  height: 216px;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  z-index: 20;
+
+  position: absolute;
+  right: 15%;
+}
+
+#cloud-1 {
+  background-image: url("./images/cloud1.png");
+  top: 60%;
+  
+ 
+}
+
+#cloud-2 {
+  display: none;
+  background-image: url("./images/cloud2.png");
+  top: 90%;
+ 
+}
+
+#cloud-3 {
+  display: none;
+  background-image: url('./images/cloud1.png');
+  top: 110%;
+}
+
+#cloud-4 {
+  display: none;
+  background-image: url('./images/cloud2.png');
+  top: 110%;
+}
+
+.cloud__text {
+  margin-top: 60px;
+  font-family: Alegreya, sans-serif;
+  font-size: 18px;
+}
+
